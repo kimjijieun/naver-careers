@@ -1,0 +1,31 @@
+body{
+    color: #000;
+    font-family: 'TTHoves','NanumSquare',sans-serif;
+    font-size: 14px;
+}
+.inner0{
+    height: 64px;
+    max-width: 1920px;
+    /* width: 1920px; */
+    padding: 0 104px 0 98px;
+    margin: 0 auto;
+}
+.inner1{
+    width: 1408px;
+    margin: 0 auto;
+}
+
+.blind{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+
+.header .logo a,
+.sc-notice .close
+{
+    background: url(../imges/icon/sp_pc.png) no-repeat;
+}

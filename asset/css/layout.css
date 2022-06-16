@@ -1,0 +1,61 @@
+@import url(./font.css);
+@import url(./reset.css);
+@import url(./common.css);
+
+.header{
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    top: 0;left: 0;
+    background: #fff;
+    z-index: 9;
+}
+.header .inner0{
+    display: flex;
+    align-items: center;
+
+}
+.header .logo a{
+    display: block;
+    width: 223px;
+    height: 35px;
+    background-position: -105px 0px;
+    background-size: 328px 205px;
+
+}
+
+/* gnb */
+.gnb-area{
+    width: 100%;
+    margin-left: 29px;
+}
+.menu-area{
+    height: 100%;
+    float: left;
+}
+.menu-area .menu-list{
+    float: left;
+    padding: 0 10px;
+    font-size: 17px;
+    /* line-height: 32px; */
+    letter-spacing: -0.36px;
+}
+.menu-area .menu-list .link-menu{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu-list .hide-menu{
+    display: none;
+}
+.login-area{
+    float: right;
+    height: 100%;
+}
+.login-area .login-list{
+    float: left;
+    padding: 0 10px;
+    font-size: 17px;
+    letter-spacing: -0.36px;
+}
+
