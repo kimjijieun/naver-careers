@@ -13,6 +13,7 @@ body{
 .inner1{
     width: 1408px;
     margin: 0 auto;
+    /* padding: 0 104px 0 98px; */
 }
 
 .blind{
@@ -25,7 +26,15 @@ body{
 }
 
 .header .logo a,
-.sc-notice .close
+.sc-notice .close,
+.search-area .ic-search,
+.main-area .team-box .number::after,
+.sc-people .btn .prev,
+.sc-people .btn .next,
+.inner1 .btn .prev,
+.inner1 .btn .next,
+.sc-board .apply::after,
+footer .tab-area .button::after
 {
     background: url(../imges/icon/sp_pc.png) no-repeat;
 }
