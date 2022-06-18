@@ -17,7 +17,23 @@
     letter-spacing: -0.10px;
     font-weight: bold;
     color: #fff;
+    position: absolute;
+    top: 0;
+
+    animation: rolling 10s linear infinite;
 }
+/* 왜 안없어짐..? */
+
+@keyframes rolling {
+    0% { transform: translateX(0);}
+    100% { 
+        transform: translateX(-100%);
+    }
+    0% { transform: translateX(0);}
+    
+}
+
+
 .sc-notice .notice-box p{
     background: url(../imges/logo/img_bannerlogo.png) no-repeat;
     vertical-align: middle;
@@ -28,6 +44,7 @@
     height: 27px;
     background-size: 209px 27px;
 }
+
 .sc-notice .close{
     background-position: -125px -105px;
     background-size: 328px 205px;
@@ -38,11 +55,11 @@
     top: 26px;
     right: 114px;
 }
-.sc-notice .close a{
+/* .sc-notice .close a{
     display: block;
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /* sc-mainbanner */
@@ -237,13 +254,14 @@
 /* sc-people */
 .sc-people{
     margin-top: 95px;
+    overflow: hidden;
 }
 .sc-people .inner1{
-    overflow: hidden;
 }
 .sc-people .midslide{
     position: relative;
     padding: 60px 0 145px 0;
+    overflow: initial;
 }
 .sc-people .midslide .slide-wrap{
     width: 1097px;
@@ -319,6 +337,7 @@
 
 .sc-benefits .slide-wrap2{
     width: 380px;
+    padding-bottom: 36px;
 }
 .sc-benefits .slide-box2{
     width: 100%;
