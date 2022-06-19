@@ -34,7 +34,7 @@ body{
 .inner1 .btn .prev,
 .inner1 .btn .next,
 .sc-board .apply::after,
-footer .tab-area .button::after
+footer .tab-area .tab-area::after
 {
     background: url(../imges/icon/sp_pc.png) no-repeat;
 }
