@@ -113,7 +113,8 @@
 }
 .search-area .search-wrap input{
     border: none;
-    color: grey;
+    width: 80%;
+    /* color: #dae8ff; */
     letter-spacing: -1.4px;
     font-weight: 700;
 }
@@ -122,8 +123,12 @@
     /* width: 100%;
     height: 40px; */
 }
-.search-area .search-list .select{
-    width: 90%;
+.search-area .search-list select{
+    width: 80%;
+    color: grey;
+}
+.search-area .search-list option{
+    color: #000;
 }
 .search-area .ic-title{
     font-weight: 700;

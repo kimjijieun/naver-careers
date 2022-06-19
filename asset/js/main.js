@@ -36,15 +36,20 @@ $(function(){
     
 
 
-    // 메인슬라이드
-        var mainslide = new Swiper(".mainslide", {
-        });
+// 메인슬라이드
+    var mainslide = new Swiper(".mainslide", {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          loop:true,
+    });
 
 
 
 // 두번째 슬라이드
     var midslide = new Swiper(".midslide", {
-        slidesPerView: "1.5",
+        slidesPerView: "1.1",
         spaceBetween: 30,
     });
 //세번째 슬라이드
